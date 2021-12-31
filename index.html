@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "stylesheet" href ="style.css" >
+    <script src = "script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class ="cell" id="0">
+            <td class ="cell" id="1">
+            <td class ="cell" id="2">
+        </tr>
+        <tr>
+            <td class ="cell" id="3">
+            <td class ="cell" id="4">
+            <td class ="cell" id="5">
+        </tr>
+        <tr>
+            <td class ="cell" id="6">
+            <td class ="cell" id="7">
+            <td class ="cell" id="8">
+        </tr>
+    </table>
+    <div class ="endgame">
+        <div class = "text"> </div>
+    </div>
+    <button onClick = "startGame()">Reset Game</button>
+    <form action="/action_page.php">
+        <p>Please select the number of players. Note changing the number will reset the game:</p>
+        <input type="radio" id="onePlayer" name="numPlayers" value="one" checked = "checked">
+        <label for="onePlayer">One Player</label><br>
+        <input type="radio" id="twoPlayer" name="numPlayers" value="two">
+        <label for="twoPlayer">Two Player</label><br>
+
+      
+        <br>  
+</body>
+</html>
